@@ -25,7 +25,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron-pack": "electron-builder",
-    "electron-start": "npm run build && electron ./build/electron.js",
     "build-and-package": "npm run build && npm run electron-pack",
     "electron": "wait-on http://localhost:3000 && electron .",
     "electron-dev": "concurrently \"npm run start\" \"npm run electron\""
